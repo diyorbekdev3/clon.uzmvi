@@ -8,11 +8,11 @@
     max-width: 1250px;
     margin: auto;
 }
-.heyder {
-    background-color:rgba(28, 28, 31, 0.968);
+.heyderTop {
+    background-color:rgba(33, 33, 36, 0.968);
 }
 .navbar {
-    padding: 1.5rem;
+    padding: 1.3rem;
     display: flex;
     justify-content: space-between;
 }
@@ -20,7 +20,7 @@
  .navbar_logo a{
     text-decoration: none;
     color: white;
-    text-shadow: 1px 2px black,2px -2px blue;
+    text-shadow: 1px 2px black,1px -1px blue;
     opacity: 0.9;
     font-size: 30px;
     font-family: Maiandra GD;
@@ -66,3 +66,40 @@
     opacity: 0.799;
 }
 
+  /* heyder_top_mid */
+
+.heyder__top_mid {
+    background-color:rgba(7, 7, 8, 0.933);
+    padding: 2rem;
+}
+.heyder_top_mid_content {
+    display: flex;
+    justify-content: space-between;
+}
+.heyder_top_mid_content .heyder_Search {
+    display: flex;
+    border-radius: 4px;
+}
+.heyder_top_mid_content .heyder_Search input {
+    background-color:rgba(33, 33, 36, 0.968);
+    border: none;
+    font-size: 15px;
+    padding: 14px;
+    padding-right: 40px;
+    color: white;
+    font-style: italic;
+    outline: none;
+}
+.heyder_top_mid_content .heyder_Search input:hover {
+    background-color:rgb(51, 51, 53);
+}
+.heyder__top_mid .heyder_Search .heyder_search_icon{
+    background-color:rgba(33, 33, 36, 0.968);
+    padding: 12px;
+    font-size: 19px;
+    color: white;
+    opacity: 0.9;
+}
+.heyder_top_mid_content .heyderr_top_mid_icon_contact {
+    display: flex;
+}  
