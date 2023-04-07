@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1250px;
+    margin: auto;
+}
+.heyder {
+    background-color:rgba(28, 28, 31, 0.968);
+}
+.navbar {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .navbar_logo a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 2px black,2px -2px blue;
+    opacity: 0.9;
+    font-size: 30px;
+    font-family: Maiandra GD;
+}
+.logo_O {
+    color: cornflowerblue;
+    font-family: Jokerman;
+    font-weight:700;
+    text-shadow: 2px 4px black,2px -2px blueviolet;
+}
+.logo_COM {
+    color: rgb(114, 188, 4);
+    text-shadow: 3px 3px rgb(39, 39, 39), 3px 3px white;
+}
+.navbar_nav_a {
+    display: flex;
+    border-radius: 20px;
+}
+.navbar_nav_a .navbar_navA_div  {
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.navbar_nav_a .navbar_navA_div a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-family:  Maiandra GD;
+    text-shadow: 2px 0px black, 2px 0px black;
+}
+.navbar_a_Click a {
+    background-color:rgb(15, 70, 172);
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.799;
+}
+
+.navbar_nav_a .navbar_navA_div a:hover{
+    cursor: grab;
+    background-color:rgba(0, 0, 0, 0.438);
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.799;
+}
+
