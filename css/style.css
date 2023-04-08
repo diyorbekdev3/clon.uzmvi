@@ -25,12 +25,40 @@
     font-size: 30px;
     font-family: Maiandra GD;
 }
+.navbar_logo a:hover {
+    animation: aniLogo infinite 2s;
+}
+ @keyframes aniLogo {
+    0% {
+        transform: rotateY(90deg);
+        filter: blur(5px);
+        opacity: 0.6;
+        color: aqua;
+    }
+    50%{
+        transform: rotateY(90deg);
+        filter: blur(2px);
+        opacity: 0.7;
+        color: red;
+    }
+    75% {
+        transform: rotateY(0deg);
+        filter: blur(0px);
+        opacity: 1;
+    }
+    100% {
+        transform: rotateY(0deg);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
 .logo_O {
     color: cornflowerblue;
     font-family: Jokerman;
     font-weight:700;
     text-shadow: 2px 4px black,2px -2px blueviolet;
 }
+
 .logo_COM {
     color: rgb(114, 188, 4);
     text-shadow: 3px 3px rgb(39, 39, 39), 3px 3px white;
@@ -40,8 +68,9 @@
     border-radius: 20px;
 }
 .navbar_nav_a .navbar_navA_div  {
-    padding: 15px;
-    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 25px;
+    /* margin-top: 10px; */
 }
 
 .navbar_nav_a .navbar_navA_div a {
@@ -95,11 +124,36 @@
 }
 .heyder__top_mid .heyder_Search .heyder_search_icon{
     background-color:rgba(33, 33, 36, 0.968);
-    padding: 12px;
-    font-size: 19px;
+    height: 100%;
+    font-size: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 11px;
+    cursor: grab;
     color: white;
     opacity: 0.9;
 }
 .heyder_top_mid_content .heyderr_top_mid_icon_contact {
     display: flex;
-}  
+    
+}
+
+.heyder_top_mid_content .heyder_mid_icon_a {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.heyder_mid_icon_a a{
+    color: white;
+    opacity: 0.8;
+    padding: 10px;
+    background-color:rgba(33, 33, 36, 0.968);
+    box-shadow: 0px 0px 1px whitesmoke, 0px 0px 1px white;
+}
+
+.heyder_mid_icon_a a:hover {
+    background-color:rgb(51, 51, 53);
+    cursor: grab;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+}
+
